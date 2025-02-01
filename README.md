@@ -1,3 +1,7 @@
+# Fork Deescription
+Add support for docker build and compose.
+Rafactor main code with support for environment variables.
+
 # marantz2mqtt
 Serial wrapper to integrate marantz Sr6004/Sr5004 to homehassistant.
 You need an straight serial cable from Homehassistant device (miniPC, raspberry. etc etc) to Marantz ampli (tested with Sr6004), phao.mqtt.client and serial library.

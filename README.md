@@ -1,6 +1,10 @@
-# Fork Deescription
+# Fork Description
 Add support for docker build and compose.
 Rafactor main code with support for environment variables.
+
+docker-compose build
+docker-compose up -d
+docker-compose logs -f
 
 # marantz2mqtt
 Serial wrapper to integrate marantz Sr6004/Sr5004 to homehassistant.

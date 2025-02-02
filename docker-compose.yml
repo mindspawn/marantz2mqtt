@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  marantz2mqtt:
+    build: .
+    container_name: marantz2mqtt
+    restart: unless-stopped
+
+    environment:
+      - MQTT_HOST=192.168.X.X
+      - MQTT_PORT=1883
+      - MQTT_USER=XXX
+      - MQTT_PASSWORD=XXX
+
+      - SERIAL_BAUDRATE=9600
+
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
